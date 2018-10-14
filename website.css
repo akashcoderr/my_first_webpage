@@ -1,0 +1,43 @@
+.top-bar{
+	background-color: #009999;
+	padding: 8px;
+}
+.my-menu{
+	margin-top: 10px;
+
+}
+.my-menu .navbar-default{
+background: none;
+border: none;
+}
+.my-menu .navbar-nav .active a,.my-menu .navbar-nav .active a:hover{
+	background-color: #099999;
+	color: white;
+}
+.my-menu .navbar-nav li a:hover{
+	background-color: #009999;
+	color: white;
+}
+@media(max-width:700px){
+	.my-menu .pull-right{
+		float: none !important;
+	}
+} 
+.heading{
+	text-align: center;
+	padding: 5px;
+	font-size: 35px;
+	font-weight: 800px;
+	border-width: 3px;
+	border-bottom-style:ridge;
+	border-color: #009999;
+	font-family: cursive; 
+}
+.well:hover{
+	box-shadow: -1px 2px 18px #888888;
+}
+.footer{
+	min-height: 80px;
+	width: 100%;
+	background-color: #666666;
+}
